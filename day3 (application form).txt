@@ -1,0 +1,89 @@
+<html>
+<head>
+<body>
+<div style="color:blue">
+<marquee direction="right">Apply to softura</marquee>
+</div>
+<div style="color:green">
+<h2 ><center><big>Application form</big><center></h2></div>
+</div>
+<a href="https://www.softura.com"target="_blank">click here</a>
+<form action="success.html">
+<label>First Name:</label>
+<input type="text" name="fname"/><br/>
+<br/>
+<label>Last Name:</label>
+<input type="text" name="lname"/><br/>
+<br/>
+<label>Gender:</label>
+<input type="radio"name="gen"value="Male"><label>Male</label>
+<input type="radio"name="gen"value="Female"><label>Female</label></br>
+<br/>
+<label>Date Birth:</label>
+<input type="text" name="date"/><br/>
+<br/>
+<label>Phone number:</label>
+<input type="text" name="num"/><br/>
+<br/>
+<label><big>address details:</big></label>
+<br/>
+<table cellpadding="5"cellspacing="10">
+<tr>
+<td colspan="2">
+   <label>Street:<lable>&nbsp
+   <input type="text" name="add"/><br/>
+</td>
+</tr>
+<tr>
+<td>
+   <label>City:<lable>&nbsp
+   <input type="text" name="add"/><br/>
+</td>
+</tr>
+<br/>
+<tr>
+<td>
+   <label>State:<lable>&nbsp
+   <input type="text" name="add"/><br/>
+</td>
+</tr>
+<td>
+   <label>Pincode:<lable>&nbsp
+   <input type="text" name="add"/><br/>
+</td>
+</tr>
+</table>
+<label>Qualification:</label>
+<input type="checkbox"name="qual"value="BE"><label>BE</label>
+<input type="checkbox"name="qual"value="B tech"><label>B tech</label>
+<input type="checkbox"name="qual"value="BCA"><label>BCA</label>
+<input type="checkbox"name="qual"value="M Com"><label>M Com</label>
+<input type="checkbox"name="qual"value="M tech"><label>M tech</label>
+<br/>
+<br/>
+<label>Department:</label>
+<input type="checkbox"name="depart"value="CSE"><label>CSE</label>
+<input type="checkbox"name="depart"value="ECE"><label>ECE</label>
+<input type="checkbox"name="depart"value="EEE"><label>EEE</label>
+<input type="checkbox"name="depart"value="MECH"><label>Mech</label>
+<input type="checkbox"name="depart"value="ARO"><label>Aro</label>
+<br/>
+<br/>
+<label>Expenices details:</label>
+<input type="text" name="exp"/>
+<br/>
+<br/>
+<label>Email:</label>
+<input type="text" name="email"/>
+<br/>
+<br/>
+Instructions to fill
+<a href="F:\dummy\day3\instructions.pdf/>click here</a>
+<input type="submit"value="Apply">
+<div style="color:blue">
+<marquee direction="up">Apply to softura</marquee>
+</div>
+
+</body>
+</head>
+</html>
