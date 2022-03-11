@@ -1,0 +1,30 @@
+<html>
+<body>
+
+<h1><i><center>HTML</center></i></h1>
+<script>
+      window.alert(3+3);
+</script>
+<p>HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices.A paragraph is a collection of words strung together to make a longer unit than a sentence. Several sentences often make to a paragraph. There are normally three to eight sentences in a paragraph. Paragraphs can start with a five-space indentation or by skipping a line and then starting over.
+</p>
+<p id="p1"></p>
+<script>
+setInterval("Fokus()",1);
+function Fokus()
+{
+var str;
+if(document.hasFocus())
+{
+str="top";
+}
+else
+{
+str="next";
+}
+document.getElementById("p1").innerHTML= str;
+}
+
+
+</script>
+</body>
+</html>
