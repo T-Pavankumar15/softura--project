@@ -26,3 +26,10 @@ values('Pavan','Kumar','male','15-08-1999',9966252999,'Korlagunta main road','ti
 insert Registrationfrom(FirstName,LastName ,Gender,Date_of_birth,Phone_No,Street,city,State,pincode,Qualification,Department,Expenices_Details,Email)
 values('sudhu','Akhil','male','6-04-2001',9966252989,'Ashoknagar ','vijaywada','Andhar pradesh',517501,'B Tech','cse','4years','Akhil@gmail.com')
 exec sp_help [Registrationfrom]
+go
+create view vx_Task
+as
+select [EmployeeID],[FirstName],[LastName],[Phone_No]
+from[dbo].[Registrationfrom]
+go
+select * from vx_Task
