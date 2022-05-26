@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<Clinic_Management_System.Models.Doctor>
+    <style>
+        body {
+            background-image: url("/newfolder/doc2.jpg");
+        }
+    </style>
+<body style="background-size:cover" height="100px" ,Style="background-size:cover">
+    <h1>Doctor</h1>
+    @using (Html.BeginForm("GetDoctor", "Home", FormMethod.Post))
+    { }
+<table class="table">
+    <thead>
+        <tr>
+            <td style="color:brown">@Html.DisplayName("DoctorId")</td>
+            <td style="color:brown">@Html.DisplayName("FirstName")</td>
+            <td style="color:brown">@Html.DisplayName("LastName")</td>
+            <td style="color:brown">@Html.DisplayName("Specialization")</td>
+            <td style="color:brown">@Html.DisplayName("Visiting Hours")</td>
+
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="color:black">@Html.DisplayFor(m => item.DoctorId)</td>
+            <td style="color:black">@Html.DisplayFor(m => item.FirstName)</td>
+            <td style="color:black">@Html.DisplayFor(m => item.LastName)</td>
+            <td style="color:black">@Html.DisplayFor(m => item.Specialization)</td>
+            <td style="color:black">@Html.DisplayFor(m => item.Visiting_Hours)</td>
+
+
+
+
+
+
+        </tr>
+    }
+    <div>
+        <a asp-action="Doctor"  style="color:black">AddDoctor</a>
+    </div>
+    <div>
+        <a asp-action="homepage" style="color:black">Back to home</a>
+    </div>
+
+</table>
+</body>

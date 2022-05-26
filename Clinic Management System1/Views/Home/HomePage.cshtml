@@ -1,0 +1,124 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<style>
+    body {
+        background-image: url("/newfolder/doc4.jpg");
+       
+    }
+</style>
+<html>
+<head></head>
+<marquee Style="color:royalblue" direction="right"> Welcome To clinic store</marquee>
+
+<boby style="background-size:cover" height="50px">
+    <center><i><h1 style="color:blueviolet">Clinic Home</h1></i></center>
+    <p>
+        Stone Clinic hospitals is a term . In general,
+        it is an internet medical platform combining online and offline access for medical institutions to provide a variety of telehealth services directly to patients.
+        It extends medical resources from the hospital to the internet by using information technology, and it develops online medical services and health services.
+    </p>
+    <h3>Doctor</h3>
+   
+    <p style="color:darkorange">
+        A physician (American English), medical practitioner (Commonwealth English), medical doctor, or simply doctor, is a health professional who practices medicine, 
+        which is concerned with promoting, maintaining or restoring health through the study, diagnosis, prognosis and treatment of disease, injury, and other physical and mental 
+        impairments. Physicians may focus their practice on certain disease categories, types of patients, and methods of treatment known as specialities or they may assume responsibility 
+        for the provision of continuing and comprehensive medical care to individuals, families, and communities—known as general practice
+    </p>
+  
+
+    <div>
+        <a asp-action="GetDoctor">Doctor Details</a>
+    </div>
+    <h3>Patient</h3>
+    <p style="color:darkorange">
+        patient who attends an outpatient clinic with no plan to stay beyond the duration of the visit.
+        Even if the patient will not be formally admitted with a note as an outpatient, their attendance is still registered, and the provider will usually give a note explaining the reason for the visit, tests, or procedure/surgery, which should include the names and titles of the participating personnel,
+        the patient's name and date of birth, signature of informed consent, estimated pre-and post-service time for history and exam (before and after), any anesthesia, medications or future treatment plans needed, and estimated time of discharge absent any (further) complications. Treatment provided in this fashion is called ambulatory care.
+        Sometimes surgery is performed without the need for a formal hospital admission or an overnight stay, and this is called outpatient surgery or "day surgery", which has many benefits including lowered healthcare cost, reducing the amount of medication prescribed, and using the physician's or surgeon's time more efficiently.
+    </p>
+    <div>
+        <a asp-action="GetPatient">View Patient</a>
+    </div>
+    <!--<table cellpadding="5" cellspacing="5" border="0">-->
+    @*<tr>
+
+            <td><center><i><h1 style="color:blueviolet">Clinic Home</h1></i></center></td>
+
+        </tr>*@
+    @*<tr>
+
+            @using (Html.BeginForm("Doctor", "Home", FormMethod.Post))
+            {
+                <td>To add doctor click here</td>
+                <td><input type="submit" value="Add" /></td>
+
+                <td><hr /></td>
+            }
+        </tr>
+
+        <tr>
+            @using (Html.BeginForm("Patient", "Home", FormMethod.Post))
+            {
+                <td>To AddPatient Clickhere</td>
+                <td><input type="submit" value="Add" /></td>
+            }
+        </tr>
+
+        <tr>
+            @using (Html.BeginForm("ScheduleAppointment", "Home", FormMethod.Post))
+            {
+                <td>Schedule Appointment</td>
+                <td><input type="submit" value="Appointment" /></td>
+            }
+        </tr>
+
+        <tr>
+            @using (Html.BeginForm("DelAppointment", "Home", FormMethod.Post))
+            {
+                <td>Cancel Appointment</td>
+                <td><input type="submit" value="Cancel" /></td>
+            }
+        </tr>*@
+
+    @*<tr>
+
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+            {
+                <td><input type="submit" value="LogOut" /></td>
+            }
+        </tr>*@
+    <!--</table>-->
+    @*<table cellpadding="5" cellspacing="5" border="0">
+
+
+
+                @using (Html.BeginForm("Doctor", "Home", FormMethod.Post))
+                {
+
+                    <tr><input type="submit" value="Doctor" /></tr>
+                }
+                @using (Html.BeginForm("Patient", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="Patient" /></tr>
+                }
+                @using (Html.BeginForm("ScheduleAppointment", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="Appointment" /></tr>
+                }
+                @using (Html.BeginForm("DelAppointment", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="CancelAppointment" /></tr>
+                }
+
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="LogOut" /></tr>
+                }
+
+        </table>*@
+</boby>
+</html>

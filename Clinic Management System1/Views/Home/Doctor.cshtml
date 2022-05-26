@@ -1,0 +1,174 @@
+﻿@*
+    @*
+        For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Clinic_Management_System.Models.Doctor
+<style>
+    body {
+        background-image: url("/newfolder/doc.jpg");
+    }
+</style>
+<html>
+
+<body>
+    <h1><i>Doctor</i></h1>
+
+
+
+
+    <marquee Style="color:royalblue" direction="right"> Adding Doctor in clinic store</marquee>
+    <hr />
+    <boby style="background-size:cover" height="150px">
+
+        @*@using (Html.BeginForm("addoc", "Home", FormMethod.Post))
+        { }*@
+        <center>
+
+        </center>
+        <div>
+            <div class="row" >
+
+                <form asp-action="addoc">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    @*<div class="form-group">
+            <label asp-for="DoctorId" class="control-label" style="color:orchid"></label>
+            <input asp-for="DoctorId" class="form-control" />
+            <span asp-validation-for="DoctorId" class="text-danger"></span>
+        </div>*@
+                    <div class="form-group">
+                        <label asp-for="FirstName" class="control-label" style="color:orchid"></label>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <label asp-for="LastName" class="control-label" style="color:orchid"></label>
+                        <input asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <div class="cols-sm-2">
+                            <label asp-for="Sex" class=" cols-sm-2 control-label" style="color:orchid"></label>
+
+                            @Html.RadioButtonFor(m => m.Sex, "Male")Male
+                            @Html.RadioButtonFor(m => m.Sex, "Female")Female
+                            @Html.RadioButtonFor(m => m.Sex, "other")other
+
+                            <span asp-validation-for="Sex" class="fa fa-calender" aria-hidden="true"></span>
+                        </div>
+                        <hr />
+                        <div class="form-group" asp-action="GetDoctor">
+                            <label asp-for="Specialization" class="control-label" style="color:orchid"></label>
+
+                            <select asp-for="Specialization" class="control-label">
+                                <option asp-value="General" class="control-label">General</option>
+                                <option asp-value="Internal Medicine" class="control-label">Internal Medicine</option>
+                                <option asp-value="Pediatrics" class="control-label">Pediatrics</option>
+                                <option asp-value="Orthopedics" class="control-label">Orthopedics</option>
+                                <
+                                <option asp-value="Opthalmology" class="control-label">Opthalmology</option>
+                            </select>
+                            <span asp-validation-for="Specialization" class="text-danger"></span>
+                        </div>
+                        <hr />
+
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Visiting_Hours" class="control-label" style="color:orchid"></label>
+                        <select asp-for="Visiting_Hours" class="control-label">
+
+
+
+                            <option value="09:00Am to 10:00Am">09:00Am to 10:00Am</option>
+                            <option value="10:00Am to 11:00Am">10:00Am to 11:00Am</option>
+                            <option value="11:00Am to 12:00Am">11:00Am to 12:00Am</option>
+                        </select>
+                        <span asp-validation-for="Visiting_Hours" class="text-danger"></span>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <input type="submit" value="ADD" class="btn btn-primary" />
+                    </div>
+
+                    <div>
+                        <a asp-action="homepage" style="color:black">Back to home</a>
+                    </div>
+                   
+                    <div>
+                        <a asp-action="GetDoctor" style="color:black">View Patient</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+       
+</body>
+@*<table cellpadding="9" cellspacing="10">
+    <tr>
+        <h1>AddDoctor</h1>
+
+    </tr>
+    <tr>
+        <td style="color:blueviolet">First Name:</td>
+        <td>@Html.TextBoxFor(m => m.FirstName)</td>
+        <td> <span asp-validation-for="FirstName" class="text-danger"></span></td>
+    </tr>
+    <tr>
+        <td style="color:blueviolet">Last Name:</td>
+        <td>@Html.TextBoxFor(m => m.LastName)</td>
+        <td> <span asp-validation-for="LastName" class="text-danger"></span></td>
+    </tr>
+    <tr>
+        <td style="color:blueviolet">Sex</td>
+        <td>
+
+            @Html.RadioButtonFor(m => m.Sex, "Male")Male
+            @Html.RadioButtonFor(m => m.Sex, "Female")Female
+            @Html.RadioButtonFor(m => m.Sex, "Others")Others
+        </td>
+        <td> <span asp-validation-for="Sex" class="text-danger"></span></td>
+    </tr>
+    <tr>
+        <td style="color:blueviolet"> Specialization:</td>
+        <td>
+
+            <select name="Specialization">
+                <option value="General">General</option>
+                <option value="Internal Medicine">Internal Medicine</option>
+                <option value="Pediatrics">Pediatrics</option>
+                <option value="Orthopedics">Orthopedics</option>
+                <option value="Opthalmology">Opthalmology</option>
+            </select>
+        </td>
+        <td> <span asp-validation-for="Specialization" class="text-danger"></span></td>
+    </tr>
+    <tr>
+        <td style="color:blueviolet">Visiting_Hours:</td>
+        <td>
+
+            <select name="Visiting_Hours">
+                <option value="09:00Am to 10:00Am">09:00Am to 10:00Am</option>
+                <option value="10:00Am to 11:00Am">10:00Am to 11:00Am</option>
+                <option value="11:00Am to 12:00Am">11:00Am to 12:00Am</option>
+
+            </select>
+        </td>
+        <td> <span asp-validation-for="Visiting_Hours" class="text-danger"></span></td>
+
+    </tr>
+    <tr>
+
+        <td><input type="submit" value="Added" style="color:cornflowerblue" /></td>
+
+
+    </tr>
+    <tr>
+        <td><a asp-action="Index" style="color:black">Back to home</a></td>
+        <td><a asp-action="GetDoctor" style="color:black">view Doctor</a></td>
+    </tr>
+</table>*@
+</html>
+

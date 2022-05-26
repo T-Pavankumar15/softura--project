@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    body {
+        background-image: url("/newfolder/doc2.jpg");
+    }
+</style>
+@model IEnumerable<Clinic_Management_System.Models.Patient>
+<body style="background-size:cover" height="100px" ,Style="background-size:cover">
+    <h1>Patient</h1>
+    @using (Html.BeginForm("GetPatient", "Home", FormMethod.Post))
+    { }
+    <table class="table">
+        <thead>
+            <tr>
+                <td style="color:brown">@Html.DisplayName("PatientId")</td>
+                <td style="color:brown">@Html.DisplayName("FirstName")</td>
+                <td style="color:brown">@Html.DisplayName("LastName")</td>
+                <td style="color:brown">@Html.DisplayName("Gender")</td>
+                <td style="color:brown">@Html.DisplayName("Age")</td>
+                @*<td style="color:brown">@Html.DisplayName("Date_of_Brith")</td>*@
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="color:black">@Html.DisplayFor(m => item.PatientId)</td>
+                <td style="color:black">@Html.DisplayFor(m => item.FirstName)</td>
+                <td style="color:black">@Html.DisplayFor(m => item.LastName)</td>
+                <td style="color:black">@Html.DisplayFor(m => item.Sex)</td>
+                <td style="color:black">@Html.DisplayFor(m => item.Age)</td>
+                @*<td style="color:black">@Html.DisplayFor(m => item.Date_of_birth)</td>*@
+
+
+
+
+
+            </tr>
+        }
+
+
+    </table>
+    <div>
+        <a asp-action="homepage" style="color:black">Back to home</a>
+    </div>
+
+    <div>
+        <a asp-action="Patient"  style="color:black">AddPatient</a>
+    </div>
+</body>

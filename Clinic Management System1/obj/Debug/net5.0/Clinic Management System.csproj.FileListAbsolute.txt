@@ -1,0 +1,161 @@
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\appsettings.Development.json
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\appsettings.json
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.exe
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.deps.json
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.runtimeconfig.json
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.runtimeconfig.dev.json
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ref\Clinic Management System.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.pdb
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.Views.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Clinic Management System.Views.pdb
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Humanizer.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.csproj.AssemblyReference.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.GeneratedMSBuildEditorConfig.editorconfig
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.AssemblyInfoInputs.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.AssemblyInfo.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.csproj.CoreCompileInputs.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.MvcApplicationPartsAssemblyInfo.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.RazorAssemblyInfo.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.RazorAssemblyInfo.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\staticwebassets\Clinic Management System.StaticWebAssets.Manifest.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\staticwebassets\Clinic Management System.StaticWebAssets.xml
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\scopedcss\bundle\Clinic Management System.styles.css
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.TagHelpers.input.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.TagHelpers.output.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.RazorCoreGenerate.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.RazorTargetAssemblyInfo.cache
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.RazorTargetAssemblyInfo.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.Views.pdb
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.csproj.CopyComplete
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.dll
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\ref\Clinic Management System.dll
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.pdb
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Clinic Management System.genruntimeconfig.cache
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Data.SqlClient.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\Doctor.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\Patient.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\HomePage.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Composition.Convention.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Composition.Hosting.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Composition.Runtime.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\System.Composition.TypedParts.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\Softura\Clinic Management System\Clinic Management System\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\ScheduleAppointment.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\DelAppointment.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\Success.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\getdoctor.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\pre schedule.cshtml.g.cs
+F:\Softura\Clinic Management System\Clinic Management System\obj\Debug\net5.0\Razor\Views\Home\getpatient.cshtml.g.cs

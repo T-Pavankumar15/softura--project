@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<Clinic_Management_System.Models.ScheduleAppointment>
+    <style>
+        body {
+            background-image: url("/newfolder/3.webp");
+        }
+    </style>
+    <html>
+    <marquee Style="color:royalblue" direction="right"> ViewAppointment With Doctor</marquee>
+
+    <body style="background-size:initial" height="100px" ,Style="background-size:cover">
+       
+        </table>
+    </body>
+    <body>
+        <h1>View Appointment</h1>
+        @using (Html.BeginForm("Homepage", "Home", FormMethod.Post))
+        { }
+        <table class="table">
+            <thead>
+                <tr>
+                    <td style="color:brown">@Html.DisplayName("PatientId")</td>
+                    <td style="color:brown">@Html.DisplayName("Specializations")</td>
+                    <td style="color:brown">@Html.DisplayName("DoctorName")</td>
+                    <td style="color:brown">@Html.DisplayName("VisitDate")</td>
+                    <td style="color:brown">@Html.DisplayName("AppointmentTime")</td>
+
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="color:blueviolet">@Html.DisplayFor(m => item.PatientId)</td>
+                    <td  style="color:blueviolet">@Html.DisplayFor(m => item.Specialization)</td>
+                    <td  style="color:blueviolet">@Html.DisplayFor(m => item.Doctor)</td>
+                    <td  style="color:blueviolet">@Html.DisplayFor(m => item.VisitDate)</td>
+                    <td  style="color:blueviolet">@Html.DisplayFor(m => item.AppointmentTime)</td>
+
+
+
+                    <td><a asp-action="Delapp" asp-route-id="@item.PatientId" class=" btn-outline-danger">CancelAppointment</a></td>
+
+
+                </tr>
+            }
+        </table>
+        <div>
+            @using (Html.BeginForm("HomePage", "Home", FormMethod.Post))
+            {
+                <input type="button" value="Back" onclick="location.href = '@Url.Action("HomePage", "Home")'" class="btn-light" />}
+        </div>
+    </body>
+</html>

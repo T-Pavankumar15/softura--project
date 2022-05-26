@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Clinic_Management_System.Models.Patient
+<style>
+    body {
+        background-image: url("/newfolder/de.jpg");
+    }
+</style>
+
+<html>
+<h1><i>Patient</i></h1>
+<body>
+    <marquee Style="color:royalblue" direction="right"> Adding Patient in clinic store</marquee>
+    <hr/>
+    <div>
+        <div class="row">
+
+            <form asp-action="adpat">
+                                                        `
+                
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label" style="color:orchid"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label" style="color:orchid"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <div class="cols-sm-2">
+                        <label asp-for="Sex" class=" cols-sm-2 control-label" style="color:orchid"></label>
+
+                        @Html.RadioButtonFor(m => m.Sex, "Male")Male
+                        @Html.RadioButtonFor(m => m.Sex, "Female")Female
+                        @Html.RadioButtonFor(m => m.Sex, "other")other
+
+                        <span asp-validation-for="Sex" class="fa fa-calender" aria-hidden="true"></span>
+                    </div>
+                    <hr />
+                    @*<div class="form-group">
+                        <label asp-for="Age" class="control-label" style="color:orchid"></label>
+                        <input asp-for="Age" class="form-control" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
+                    </div>*@
+                    <hr />
+                    <div class="form-group">
+                        <label asp-for="Date_of_birth" class="control-label" style="color:orchid"></label>
+                        <input asp-for="Date_of_birth" class="form-control" />
+                        <span asp-validation-for="Date_of_birth" class="text-danger"></span>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <input type="submit" value="ADD" class="btn btn-primary" />
+                    </div>
+
+                    <div>
+                        <a asp-action="homepage" style="color:black">Back to home</a>                                                                                                                                                                   
+                    </div>
+
+                    <div>
+                        <a asp-action="GetPatient" style="color:black">View Patient</a>
+                    </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
+
