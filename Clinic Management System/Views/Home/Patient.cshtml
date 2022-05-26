@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Clinic_Management_System.Models.Patient
+<style>
+    body {
+        background-image: url("/newfolder/3.webp");
+    }
+</style>
+<html>
+<head>
+    <title>Clinic Login</title>
+</head>
+<body>
+    <marquee Style="color:royalblue" direction="right"> Adding Patient in clinic store</marquee>
+
+    <boby style="background-size:initial" height="100px" ,Style="background-size:cover">
+     
+        @using (Html.BeginForm("adpat", "Home", FormMethod.Post))
+        {
+            <center>
+                <table cellpadding="9"cellspacing="10" >
+                    <tr>
+                        <h1>Patient</h1>
+
+                    </tr>
+
+
+                    <tr>
+                        <td style="color:blueviolet">First Name:</td>
+                        <td>@Html.TextBoxFor(m => m.FirstName)</td>
+                        <td> <span asp-validation-for="FirstName" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="color:blueviolet">Last Name:</td>
+                        <td>@Html.TextBoxFor(m => m.LastName)</td>
+                        <td> <span asp-validation-for="LastName" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="color:blueviolet">Sex:</td>
+                        <td>
+
+                            @Html.RadioButtonFor(m => m.Sex, "Male")Male
+                            @Html.RadioButtonFor(m => m.Sex, "Female")Female
+                            @Html.RadioButtonFor(m => m.Sex, "Others")Others
+                        </td>
+                        <td> <span asp-validation-for="Sex" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="color:blueviolet">Age:</td>
+                        <td>@Html.TextBoxFor(m => m.Age)</td>
+                        <td> <span asp-validation-for="Age" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="color:blueviolet"> Date_of_birth:</td>
+                        <td class="form-group">
+
+                            <input asp-for="Date_of_birth" class="form-Cont" type="date" />
+
+                        </td>
+                        <td> <span asp-validation-for="Date_of_birth" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input type="submit" value="Added"   /></td>
+                        <td> <a asp-action="Index">Back to home</a></td>
+
+                    </tr>
+                </table>
+           </center>
+        }
+        @*<div >
+        <a asp-action="Index">Back to home</a>
+        </div>
+        </boby>*@
+</body>
+</html>
+

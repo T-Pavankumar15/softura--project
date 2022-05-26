@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+@model Clinic_Management_System.Models.Logintable
+
+@{
+
+    
+ Layout = null;
+}
+<style>body{
+        background-image: url("/newfolder/3.webp");
+        
+    }
+</style>
+
+<html>
+<head>
+    <title>Clinic Store</title>
+</head>
+<body style="background-size:cover">
+    <marquee Style="color:royalblue"  direction="right"> Welcome to The Clinic Store</marquee>
+    <img src="~/NewFolder/Stone-Clinic-Logo.png" top="600px" , />
+    @using (Html.BeginForm("Validate", "Home", FormMethod.Post))
+    {
+
+        <table cellpadding="5" cellspacing="5"  >
+            <tr>
+                <big> <th style="color:orangered" colspan="2" align="center"> <h1>The Clinic Store</h1></th></big>
+
+            </tr>
+
+
+            <tr>
+                <td>UserName</td>
+                <td>@Html.TextBoxFor(m => m.Username)</td>
+                <td> <span asp-validation-for="Username" class="text-danger"></span></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>@Html.PasswordFor(m => m.Passwrd)</td>
+                <td> <span asp-validation-for="Passwrd" class="text-danger"></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Login" /></td>
+            </tr>
+
+        </table>}
+
+
+</body>
+    
+</html>

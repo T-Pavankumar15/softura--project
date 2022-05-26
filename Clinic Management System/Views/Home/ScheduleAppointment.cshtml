@@ -1,0 +1,85 @@
+﻿@model Clinic_Management_System.Models.ScheduleAppointment
+
+@{
+    ViewData["Title"] = "ScheduleAppointment";
+}
+
+<style>
+    body {
+        background-image: url("/newfolder/3.webp");
+    }
+</style>
+
+<h1>ScheduleAppointment</h1>
+<marquee Style="color:royalblue" direction="right"> ScheduleAppointment With Doctor</marquee>
+
+<body style="background-size:cover" height="1000px" ,Style="background-size:cover">
+
+</body>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Schpro">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PatientId" class="control-label" style="color:orchid"></label>
+                <input asp-for="PatientId" class="form-control" />
+                <span asp-validation-for="PatientId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Specialization" class="control-label" style="color:orchid"></label>
+                <select name="Specialization">
+                    <option value="General">General</option>
+                    <option value="Internal Medicine">Internal Medicine</option>
+                    <option value="Pediatrics">Pediatrics</option>
+                    <option value="Orthopedics">Orthopedics</option>
+                    <option value="Opthalmology">Opthalmology</option>
+                </select>
+                <span asp-validation-for="Specialization" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Doctor" class="control-label" style="color:orchid"></label>
+                <input asp-for="Doctor" class="form-control" />
+                <span asp-validation-for="Doctor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="cols-sm-2">
+                    <label asp-for="VisitDate" class=" cols-sm-2 control-label" style="color:orchid"></label>
+                    <input asp-for="VisitDate" class="form-control" type="date" placeholder="Select suitable date" minDate=" " />
+
+                    <span asp-validation-for="VisitDate" class="fa fa-calender" aria-hidden="true"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="AppointmentTime" class="control-label" style="color:orchid"></label>
+                <select name="AppointmentTime">
+                   
+
+                        @*@Html.RadioButtonFor(m => m.AppointmentTime, "09:00Am to 10:00Am")09:00Am to 10:00Am
+                        @Html.RadioButtonFor(m => m.AppointmentTime, "10:00Am to 11:00Am")10:00Am to 11:00Am
+                         @Html.RadioButtonFor(m => m.AppointmentTime, "11:00Am to 12:00Am")11:00Am to 12:00Am*@
+                  
+                    <option value="09:00Am to 10:00Am">09:00Am to 10:00Am</option>
+                    <option value="10:00Am to 11:00Am">10:00Am to 11:00Am</option>
+                    <option value="11:00Am to 12:00Am">11:00Am to 12:00Am</option>
+                </select>
+                <span asp-validation-for="AppointmentTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="DelAppointment">View to Appointment</a>
+</div>
+
+<div>
+    <a asp-action="Index">Back to home</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

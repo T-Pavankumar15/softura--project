@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<style>
+    body {
+        background-image: url("/newfolder/3.webp");
+       
+    }
+</style>
+<html>
+<head></head>
+<marquee Style="color:royalblue" direction="right"> Home clinic store</marquee>
+
+<boby style="background-size:cover" height="100px">
+    <center><i><h1 style="color:blueviolet">Clinic Home</h1></i></center>
+    <p>
+        Stone Clinic hospitals is a term with a somewhat vague meaning. In general,
+        it is an internet medical platform combining online and offline access for medical institutions to provide a variety of telehealth services directly to patients.
+        It extends medical resources from the hospital to the internet by using information technology, and it develops online medical services and health services
+    </p>
+    <table cellpadding="5" cellspacing="5" border="0">
+        @*<tr>
+
+            <td><center><i><h1 style="color:blueviolet">Clinic Home</h1></i></center></td>
+
+        </tr>*@
+        @*<tr>
+
+            @using (Html.BeginForm("Doctor", "Home", FormMethod.Post))
+            {
+                <td>To add doctor click here</td>
+                <td><input type="submit" value="Add" /></td>
+               
+                <td><hr /></td>
+            }
+        </tr>
+        
+        <tr>
+            @using (Html.BeginForm("Patient", "Home", FormMethod.Post))
+            {
+                <td>To AddPatient Clickhere</td>
+                <td><input type="submit" value="Add" /></td>
+            }
+        </tr>
+      
+        <tr>
+            @using (Html.BeginForm("ScheduleAppointment", "Home", FormMethod.Post))
+            {
+                <td>Schedule Appointment</td>
+                <td><input type="submit" value="Appointment" /></td>
+            }
+        </tr>
+        
+        <tr>
+            @using (Html.BeginForm("DelAppointment", "Home", FormMethod.Post))
+            {
+                <td>Cancel Appointment</td>
+                <td><input type="submit" value="Cancel" /></td>
+            }
+        </tr>*@
+      
+        @*<tr>
+
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+            {
+                <td><input type="submit" value="LogOut" /></td>
+            }
+        </tr>*@
+    </table>
+        @*<table cellpadding="5" cellspacing="5" border="0">
+            
+
+
+                @using (Html.BeginForm("Doctor", "Home", FormMethod.Post))
+                {
+
+                    <tr><input type="submit" value="Doctor" /></tr>
+                }
+                @using (Html.BeginForm("Patient", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="Patient" /></tr>
+                }
+                @using (Html.BeginForm("ScheduleAppointment", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="Appointment" /></tr>
+                }
+                @using (Html.BeginForm("DelAppointment", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="CancelAppointment" /></tr>
+                }
+
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                {
+                    <tr><input type="submit" value="LogOut" /></tr>
+                }
+            
+        </table>*@
+</boby>
+</html>
